@@ -1,0 +1,150 @@
+
+header {
+	    box-shadow: 1px 1px 3px #ccc;
+	    background-color: #9dd328;
+	    border-radius: 5px; 
+       }
+
+nav {
+	 display: flex;
+	 justify-content: space-between;
+	 margin: 0px 20px;
+}
+
+nav ul {
+        display: flex;
+        list-style: none;
+        }
+
+nav ul li {
+           padding-right: 20px;
+          }
+
+nav ul li a {
+	      text-decoration: none;
+	      font-weight: bold;
+	      font-size: 20px;
+             color: white;
+             transition: 0.5s;
+            }
+
+nav ul li a:hover {
+                   color: #000;
+                   background-color: #fff;
+                   border-radius: 7px;
+                   transition: 0.5s;
+                  }        
+
+nav .logo {
+           width: 50px;
+           height: 50px;
+          }
+
+.layout {
+	     display: flex;
+        }
+
+aside {
+       width: 20%;
+       height: 100vh;
+      background-color: #d2dddb; 
+      box-shadow: 2px 2px 7px #ccc;
+      }
+
+aside ul li{ 
+             list-style-type: none; 
+             padding-top: 50px;  
+           }
+
+aside ul li a { 
+                text-decoration: none; 
+                font-size: 30px; 
+                font-weight: bold;
+                color: #000;
+                transition: 1s;
+              } 
+
+aside ul li a:hover{
+                    color: snow;
+                    background-color: #000;
+                    border-radius: 6px;
+                    transition: 1s;
+                   }                      
+
+main {
+	  width: 80%;
+	  height: 100vh;
+	  padding: 20px;
+	  background-color: #ebf4f3;
+     }                     
+
+.search {
+	     text-align: right;
+         padding-top: 10px;
+        }
+
+.search input {
+                width: 17%;
+                border-radius: 4px;
+                outline-color: gray;
+                height: 27px;
+                border: 2px;
+              } 
+
+.search button {
+                background-color: #000;
+                color: snow;
+                font-weight: bold;
+                font-size: 13px;
+                border-radius: 7px;
+                padding: 3px ;
+               }                  
+
+.search button:active {
+                       background-color: snow;
+                       color: black;
+                       }
+
+.lunch {
+	       flex-wrap:wrap ;
+	       display: flex;
+	       justify-content: space-evenly;
+
+	       }                       
+
+.lunch .card3  {
+	               height: 323px;
+	               width: 210px;
+	               box-shadow: 1px 1px 10px #ccc;
+	               border-radius: 8px;
+	               text-align: center;
+	               margin-bottom: 20px;
+                   margin-right: 20px ;
+                   margin-top: 15px;
+                 }  
+
+.lunch .card3 img {
+                     width: 210px;
+                     height: 150px;
+                     border-radius: 8px 8px 0 0;
+                    }
+
+.lunch .card3 , h3 , p  {
+	                      text-align: center;
+                         }
+
+.lunch .card3 button {
+                        padding: 5px;
+                        background-color: darkred;
+                        color: snow;
+                        border: 1px;
+                        border-radius: 4px;
+                        transition: 1.5s;
+                        font-weight: bold;
+                       }
+
+.lunch .card3 button:hover{
+                             background-color: #fcb902;
+                             color: snow;
+                             transition: 1.5s;
+                            }  
